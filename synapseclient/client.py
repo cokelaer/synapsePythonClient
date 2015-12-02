@@ -52,8 +52,8 @@ except:
 import urllib, requests, webbrowser
 
 try:
-    from urlib import quote as urllib_quote
-    from urlib import unquote as urllib_unquote
+    from urllib import quote as urllib_quote
+    from urllib import unquote as urllib_unquote
 except:
     from urllib.parse import quote as urllib_quote
     from urllib.parse import unquote as urllib_unquote
